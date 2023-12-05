@@ -1,0 +1,32 @@
+body{
+background-color: black;
+}
+#first{
+    width: 15%;
+    margin: auto;
+    padding: 50px;
+background-color: black;
+border-radius: 50px;
+}
+#meow{
+    color: aquamarine; 
+    background-color: brown;
+    padding: 50px;
+    border-radius: 50px;
+}
+#bark{
+    font-size: small; 
+    color: blue; 
+    background-color: blueviolet;
+    padding: 50px;
+    border-radius: 50px;
+}
+#ham{
+    font-size: larger; 
+    background-color: blanchedalmond;
+    padding: 50px;
+    border-radius: 50px;
+}
+img{
+    border-radius: 50px;
+}

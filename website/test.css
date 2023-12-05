@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(https://m.media-amazon.com/images/M/MV5BOTFjYTgxYjUtMTlhZS00ZjgwLTg1ZjktNGFlYTc0MDNiMmEzXkEyXkFqcGdeQW1yb3NzZXI@._V1_.jpg);
+    background-position: center;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+
+}
+#one {
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+#two { 
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+   
+}
+#three {
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    
+}
+.card-image {
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.car-1 {
+    background-image: url(https://discussingfilm.net/wp-content/uploads/2019/01/glass4.jpg)
+}
+
+.car-2 {
+    background-image: url(https://i2-prod.mirror.co.uk/incoming/article13669155.ece/ALTERNATES/s615b/2_CABANA_13_INTL_CHARACTER_BANNER_KEVIN_UNITED_KINGDOM.jpg)
+}
+
+.car-3 {
+    background-image: url(https://i2-prod.mirror.co.uk/incoming/article13669153.ece/ALTERNATES/s615b/2_CABANA_13_INTL_CHARACTER_BANNER_DAVID_UNITED_KINGDOM.jpg)
+}
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+#one:hover {
+    background-color: rgb(149, 56, 231);
+    color: aliceblue;
+    cursor: pointer;
+}
+#two:hover {
+    background-color: rgb(195, 230, 105);
+    color: aliceblue;
+    cursor: pointer;
+}
+#three:hover {
+    background-color: rgb(28, 162, 111);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}

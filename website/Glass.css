@@ -1,0 +1,17 @@
+body {
+    background-image: url(https://waxworkrecords.com/cdn/shop/products/GLASS_Coverweb_1200x630.jpg?v=1592948541);
+    background-position: center; 
+}
+
+h1 {
+    font-size: 50px;
+    color: aliceblue;
+    margin: 5%;
+    padding: 0%;
+    text-align: center;
+    text-decoration: overline underline;
+}
+
+p{
+    color: aliceblue;
+}

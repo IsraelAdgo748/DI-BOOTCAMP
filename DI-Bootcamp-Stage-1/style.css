@@ -1,0 +1,34 @@
+body{
+    background-color: blue;
+}
+h1{
+    color: rgba(22, 201, 201, 0.984);
+}
+li{
+    background-color: aquamarine;
+}
+*{
+    font-style: italic;
+}
+h3{
+    font-size: 80px;
+}
+li{
+    display: inline-block;
+}
+p{
+    border: 4px solid black;
+}
+h1{
+    text-align: center;
+}
+#first{
+    border: solid 5px red;
+}
+.dash{
+    border: purple dashed 5px
+}
+p{
+    padding: 20px;
+    margin: 20px;
+}
