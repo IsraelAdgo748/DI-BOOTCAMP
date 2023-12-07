@@ -1,0 +1,34 @@
+
+.transparent-bg {
+            opacity: 1;
+            background-image: url(https://images.unsplash.com/photo-1584673961397-be26e009333f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3JlZW4lMjBmaWVsZHxlbnwwfHwwfHx8MA%3D%3D);
+
+}
+ 
+
+.title {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+img{
+    float: right;
+    border-radius: 50px;
+
+}
+p {
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+}
+
+li {
+    color: azure;
+}
+
+h3 {
+    font-size: 25px;
+    background-color: aliceblue;
+}
