@@ -1,0 +1,36 @@
+
+
+body{
+    background-color: black;
+}
+
+
+h1 {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    overflow: scroll;
+    color: aliceblue;
+    transform: 0.5s;
+}
+
+p{
+    overflow: scroll;
+    color: azure;
+    transition: 1s;
+}
+
+p:hover {
+    background-color: aqua;
+}
+
+h1:hover{
+    background-color: aqua;
+    width: 20%;
+}
+.cats p {
+    color: aquamarine;
+}
+.cats h2 {
+    color: blueviolet;
+}

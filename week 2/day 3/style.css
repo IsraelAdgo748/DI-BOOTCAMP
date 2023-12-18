@@ -1,0 +1,136 @@
+body{
+	padding:0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+h1,h3,li a{
+	font-family: sans-serif;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	height: 412px;
+	background-color: #8bdcdc;
+	color: #fff;
+}
+
+.navigation{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.logo li{
+	display: none;
+}
+
+span{
+	font-family: cursive;
+}
+
+.navigation li,
+.logo li{
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-size: 1.35em;
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: .2px solid rgba(255,255,255,1);
+	padding: .2em;
+}
+
+li a{
+	color: #fff;
+	display: block;
+}
+
+header{
+	position: relative;
+}
+
+.about{
+	position: absolute;
+	top: 63%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	text-align: center;
+	width: 60%;
+	max-width: 600px;
+}
+
+.about p{
+	line-height: 1.3em;
+}
+
+#my-name{
+	font-size: 2.35em;
+	letter-spacing: 2px;
+    letter-spacing: 2;
+}
+
+.profile-img{
+	border-radius: 50%;
+	position: absolute;
+	top: 97%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.wrapper{
+	width: 95%;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px){
+	.header-wrapper{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.logo li{
+		display: inline-block;
+		text-transform: capitalize;
+		font-family: cursive;
+		width:20%;
+		letter-spacing: 2px;
+		font-size: 1.75em;
+	}
+
+	.navigation{
+		display: flex;
+		width: 50%;
+		justify-content: space-around;
+		margin: 0;
+	}
+
+	.logo li,.navigation li{
+		border-bottom: none;
+		padding-top: .5em;
+	}
+}
+
+.pro h2,p {
+    margin: 4%;
+}
+
+ion-icon {
+	color: lightgray;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	down: 97%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+}
+
+ion-icon:hover{
+	color: black;
+	
+}
