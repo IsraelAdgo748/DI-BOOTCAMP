@@ -35,6 +35,13 @@ myWatchedSeries.unshift("stranger things")
 
 console.log(myWatchedSeries);
 
+let indextodelete = 1 ;
+
+myWatchedSeries.splice(indextodelete , 1);
+
+console.log(myWatchedSeries);
+
+
 
 let c = 18
 
@@ -42,3 +49,14 @@ let f = c/5*9+32
 
 console.log(`${c}°C is ${f}°F`);
 
+
+
+let d;
+let a = 34;
+let b = 21;
+
+    console.log(a+b) 
+
+    a = 2;
+
+    console.log(a+b)
